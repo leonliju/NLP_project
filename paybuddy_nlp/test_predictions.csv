@@ -1,0 +1,144 @@
+transaction_id,description,category,bucket,predicted_category,confidence,stage_used,flagged_for_review,correct
+202,Amount received from a part time gig,Income,nlp_hard,Income,0.55,nlp_fallback,True,True
+367,Picked up a few things from the general store,Shopping,nlp_hard,Shopping,0.75,regex,False,True
+380,POS purchase at City Care pharmacy purchase,Medical,regex,Medical,0.75,regex,False,True
+26,UPI/Udemy/Education,Education,dictionary,Education,0.95,dictionary,False,True
+167,Spent the evening at a rooftop lounge,Entertainment,nlp_hard,Entertainment,0.55,nlp_fallback,True,True
+165,Auto-debit - Vijay electronics store purchase,Shopping,regex,Shopping,0.75,regex,False,True
+465,UPI/UnidentifiedMerchant/Other,Other,dictionary,Other,0.95,dictionary,False,True
+241,Auto-debit - Local Bookstore,Shopping,dictionary,Shopping,0.95,dictionary,False,True
+201,Sold old textbooks to a junior,Income,nlp_hard,Food,0.55,nlp_fallback,True,False
+102,Picked up prescribed tablets today,Medical,nlp_hard,Medical,0.55,nlp_fallback,True,True
+237,Indigo flight ticket,Travel,regex,Travel,0.75,regex,False,True
+235,Treated myself to a milkshake,Food,nlp_hard,Food,0.55,nlp_fallback,True,True
+210,Payment to Ola Cabs via UPI,Travel,dictionary,Travel,0.95,dictionary,False,True
+74,New charger for the laptop,Shopping,nlp_hard,Shopping,0.55,nlp_fallback,True,True
+37,tickets booked for the concert downtown,Entertainment,nlp_hard,Entertainment,0.55,nlp_fallback,True,True
+179,NEFT credit from Uber,Travel,dictionary,Travel,0.95,dictionary,False,True
+427,Picked up a birthday present for a friend,Shopping,nlp_hard,Shopping,0.55,nlp_fallback,True,True
+5,IMPS transfer - BookMyShow,Entertainment,dictionary,Entertainment,0.95,dictionary,False,True
+426,Misc upi transfer to unknown,Other,regex,Other,0.75,regex,False,True
+228,POS purchase at Scholarship Disbursement,Income,dictionary,Income,0.95,dictionary,False,True
+297,Paid for lunch with the project team,Food,nlp_hard,Food,0.55,nlp_fallback,True,True
+168,hackathon prize money transfer,Income,regex,Income,0.75,regex,False,True
+119,Big bazaar department store,Shopping,regex,Shopping,0.75,regex,False,True
+470,IMPS transfer - ATM Cash Withdrawal,Other,dictionary,Other,0.95,dictionary,False,True
+114,NEFT credit from Udemy,Education,dictionary,Education,0.95,dictionary,False,True
+213,POS purchase at Society maintenance charge,Bills,regex,Bills,0.75,regex,False,True
+434,POS purchase at GATE exam fee payment,Education,regex,Education,0.75,regex,False,True
+282,Annual maintenance charge for the apartment,Bills,nlp_hard,Bills,0.75,regex,False,True
+375,Rajesh dhaba dinner,Food,regex,Food,0.75,regex,False,True
+303,Tickets booked for the concert downtown,Entertainment,nlp_hard,Entertainment,0.55,nlp_fallback,True,True
+87,Payment to Local band concert ticket via UPI,Entertainment,regex,Entertainment,0.75,regex,False,True
+222,POS purchase at Namma Metro card recharge,Travel,regex,Bills,0.75,regex,False,False
+428,Warden collected the room deposit this week,Bills,nlp_hard,Bills,0.55,nlp_fallback,True,True
+221,Ordered a gift for a friend online,Shopping,nlp_hard,Shopping,0.55,nlp_fallback,True,True
+345,NEFT credit from Spotify OTT subscription renewal,Entertainment,regex,Entertainment,0.75,regex,False,True
+233,neft credit from airtel postpaid,Bills,dictionary,Bills,0.95,dictionary,False,True
+414,Certification exam booked for next month,Education,nlp_hard,Education,0.55,nlp_fallback,True,True
+161,prize money for winning the hackathon,Income,nlp_hard,Income,0.75,regex,False,True
+257,POS purchase at Thyrocare lab test payment,Medical,regex,Medical,0.75,regex,False,True
+313,neft credit from skill lync course fee,Education,regex,Education,0.75,regex,False,True
+394,Rajesh dhaba dinner,Food,regex,Food,0.75,regex,False,True
+385,Metro supermarket bill,Shopping,regex,Shopping,0.75,regex,False,True
+441,City care pharmacy purchase,Medical,regex,Medical,0.75,regex,False,True
+318,IMPS transfer - Vodafone Idea electricity bill payment,Bills,regex,Bills,0.75,regex,False,True
+100,NEFT credit from INOX Movies,Entertainment,dictionary,Entertainment,0.95,dictionary,False,True
+30,Paid back a friend for lending cash,Other,nlp_hard,Other,0.55,nlp_fallback,True,True
+1,small charge deducted by the bank,Other,nlp_hard,Other,0.55,nlp_fallback,True,True
+158,Booked seats for the comedy show,Entertainment,nlp_hard,Entertainment,0.55,nlp_fallback,True,True
+75,Grabbed a quick bite between classes,Food,nlp_hard,Food,0.55,nlp_fallback,True,True
+162,Withdrew cash from the machine near campus,Other,nlp_hard,Other,0.55,nlp_fallback,True,True
+469,Swiggy,Food,dictionary,Food,0.95,dictionary,False,True
+170,POS purchas3 at Bank Charges,Other,dictionary,Other,0.95,dictionary,False,True
+319,Auto-debit - Local Bookstore,Shopping,dictionary,Shopping,0.95,dictionary,False,True
+424,Shared an auto to the railway station,Travel,nlp_hard,Travel,0.55,nlp_fallback,True,True
+270,Sold old textbooks to a junior,Income,nlp_hard,Food,0.55,nlp_fallback,True,False
+45,Train ticket for the trip next month,Travel,nlp_hard,Travel,0.75,regex,False,True
+462,Booked a ride back home for the weekend,Travel,nlp_hard,Travel,0.55,nlp_fallback,True,True
+191,New b@kery order,Food,regex,Food,0.55,nlp_fallback,True,True
+418,wifi connection renewed for the flat,Bills,nlp_hard,Bills,0.55,nlp_fallback,True,True
+277,Topped up the travel card,Travel,nlp_hard,Travel,0.55,nlp_fallback,True,True
+406,Payment to Fun World amusement park via UPI,Entertainment,regex,Entertainment,0.75,regex,False,True
+164,certific@tion exam booked for next month,Education,nlp_hard,Education,0.55,nlp_fallback,True,True
+32,Payment to Society maintenance charge via UPI,Bills,regex,Bills,0.75,regex,False,True
+361,pos purchase at local tiffin service,Food,dictionary,Food,0.95,dictionary,False,True
+352,Withdrew cash from the machine near campus,Other,nlp_hard,Other,0.55,nlp_fallback,True,True
+182,Payment to Third Wave Coffee via UPI,Food,dictionary,Food,0.95,dictionary,False,True
+59,Auto-debit - IndiGo flight ticket,Travel,regex,Travel,0.75,regex,False,True
+93,imps transfer - sbi bank charge deducted,Other,regex,Other,0.75,regex,False,True
+76,UPI/NetflixSubscription/Bills,Bills,dictionary,Bills,0.95,dictionary,False,True
+416,IMPS transfer - Skin clinic consultation,Medical,regex,Medical,0.75,regex,False,True
+208,Cleared pending dues at the department office,Education,nlp_hard,Education,0.55,nlp_fallback,True,True
+300,POS purchase at Infosys salary credited,Income,regex,Income,0.75,regex,False,True
+155,Payment to Local band concert ticket via UPI,Entertainment,regex,Entertainment,0.75,regex,False,True
+362,Decathlon,Shopping,dictionary,Shopping,0.95,dictionary,False,True
+98,IMPS transfer - Coursera,Education,dictionary,Education,0.95,dictionary,False,True
+407,P@yment to University Bookstore via UPI,Education,dictionary,Education,0.95,dictionary,False,True
+51,UPI/AmazonIndia/Shopping,Shopping,dictionary,Shopping,0.95,dictionary,False,True
+292,IMPS transfer - Faasos food delivery order,Food,regex,Food,0.75,regex,False,True
+314,IMPS transfer - Ola Cabs,Travel,dictionary,Travel,0.95,dictionary,False,True
+196,Payment to BookMyShow via UPI,Entertainment,dictionary,Entertainment,0.95,dictionary,False,True
+55,College semester fee installment,Education,regex,Education,0.75,regex,False,True
+338,Practo Consultation,Medical,dictionary,Medical,0.95,dictionary,False,True
+177,UPI/FreelancePaymentUpwork/Income,Income,dictionary,Income,0.95,dictionary,False,True
+411,Paid for the workshop materials,Education,nlp_hard,Education,0.55,nlp_fallback,True,True
+454,NEFT credit from Misc UPI transfer to unknown,Other,regex,Other,0.75,regex,False,True
+50,Annual ch3ckup at the clinic,Medical,nlp_hard,Medical,0.75,regex,False,True
+264,IMPS tr@nsfer - Amazon India,Shopping,dictionary,Shopping,0.95,dictionary,False,True
+366,Topped up the mobile network balance,Bills,nlp_hard,Bills,0.55,nlp_fallback,True,True
+60,Auto-debit - PG rent due for October,Bills,regex,Bills,0.75,regex,False,True
+252,Payment to Unidentified Merchant via UPI,Other,dictionary,Other,0.95,dictionary,False,True
+246,POS purchas3 at Apollo Pharmacy,Medical,dictionary,Medical,0.95,dictionary,False,True
+439,POS purchase at Campus Cafeteria,Food,dictionary,Food,0.95,dictionary,False,True
+440,Cleared pending dues at the department office,Education,nlp_hard,Education,0.55,nlp_fallback,True,True
+284,book3d a ride back home for the weekend,Travel,nlp_hard,Travel,0.55,nlp_fallback,True,True
+28,NEFT credit from Timezone gaming zone,Entertainment,regex,Entertainment,0.75,regex,False,True
+219,NEFT credit from Hackathon prize money transfer,Income,regex,Income,0.75,regex,False,True
+69,NEFT credit from KSRTC bus ticket booking,Travel,regex,Travel,0.75,regex,False,True
+236,IMPS transfer - Swiggy,Food,dictionary,Food,0.95,dictionary,False,True
+131,IMPS transfer - BESCOM Electricity,Bills,dictionary,Bills,0.95,dictionary,False,True
+393,NEFT credit from Gaming Zone Arcade,Entertainment,dictionary,Entertainment,0.95,dictionary,False,True
+217,IMPS transfer - Freelance Payment - Upwork,Income,dictionary,Income,0.95,dictionary,False,True
+106,ordered a gift for a friend online,Shopping,nlp_hard,Shopping,0.55,nlp_fallback,True,True
+451,Eye test at the optician,Medical,nlp_hard,Medical,0.55,nlp_fallback,True,True
+68,Payment to Croma via UPI,Shopping,dictionary,Shopping,0.95,dictionary,False,True
+188,sold old textbooks to a junior,Income,nlp_hard,Food,0.55,nlp_fallback,True,False
+353,POS purchase at Exam Registration Fee,Education,dictionary,Education,0.95,dictionary,False,True
+166,Paid for lunch with the project team,Food,nlp_hard,Food,0.55,nlp_fallback,True,True
+423,Paid the landlord for this month,Bills,nlp_hard,Bills,0.55,nlp_fallback,True,True
+22,IMPS transfer - Airtel Postpaid,Bills,dictionary,Bills,0.95,dictionary,False,True
+448,IMPS transfer - GATE exam fee payment,Education,regex,Education,0.75,regex,False,True
+24,Auto-debit - Hostel Rent,Bills,dictionary,Bills,0.95,dictionary,False,True
+323,Auto-debit - 1mg Online Pharmacy,Medical,dictionary,Medical,0.95,dictionary,False,True
+310,Irctc train ticket booking,Travel,regex,Travel,0.75,regex,False,True
+43,Auto-debit - ATM withdrawal at HDFC,Other,regex,Other,0.75,regex,False,True
+358,imps transfer - redbus,Travel,dictionary,Travel,0.95,dictionary,False,True
+333,POS purchase at Big Bazaar department store,Shopping,regex,Shopping,0.75,regex,False,True
+189,Dental appointment payment,Medical,nlp_hard,Medical,0.55,nlp_fallback,True,True
+294,UPI/UnidentifiedMerchant/Other,Other,dictionary,Other,0.95,dictionary,False,True
+96,POS purchase at IndiGo Airlines,Travel,dictionary,Travel,0.95,dictionary,False,True
+309,NEFT credit from McDonald's,Food,dictionary,Food,0.95,dictionary,False,True
+40,IMPS transfer - Ola Cabs,Travel,dictionary,Travel,0.95,dictionary,False,True
+268,Corner cafe evening snack,Food,regex,Food,0.75,regex,False,True
+17,pos purchase at zomato,Food,dictionary,Food,0.95,dictionary,False,True
+95,St Johns hospital bill,Medical,regex,Medical,0.75,regex,False,True
+344,NEFT credit from Amazon refund received,Income,regex,Income,0.75,regex,False,True
+468,Skill lync course fee,Education,regex,Education,0.75,regex,False,True
+52,IMPS transfer - 1mg Online Pharmacy,Medical,dictionary,Medical,0.95,dictionary,False,True
+128,POS purchase at ATM Cash Withdrawal,Other,dictionary,Other,0.95,dictionary,False,True
+349,Meru taxi booking,Travel,regex,Travel,0.75,regex,False,True
+44,subscribed to a music streaming service,Entertainment,nlp_hard,Entertainment,0.55,nlp_fallback,True,True
+148,Paid back a friend for lending cash,Other,nlp_hard,Other,0.55,nlp_fallback,True,True
+173,Hackathon prize money transfer,Income,regex,Income,0.75,regex,False,True
+9,IMPS transfer - Freelance Payment - Upwork,Income,dictionary,Income,0.95,dictionary,False,True
+243,Consultation with the family doctor,Medical,nlp_hard,Medical,0.55,nlp_fallback,True,True
+111,Payment to McDonald's via UPI,Food,dictionary,Food,0.95,dictionary,False,True
+299,Auto-debit - Amazon India,Shopping,dictionary,Shopping,0.95,dictionary,False,True
+169,ordered dessert after dinner,Food,nlp_hard,Food,0.55,nlp_fallback,True,True
+435,booked a cab to the airport early morning,Travel,nlp_hard,Travel,0.55,nlp_fallback,True,True
+39,Payment to Third Wave Coffee via UPI,Food,dictionary,Food,0.95,dictionary,False,True
+212,Payment to Monthly wifi bill - ACT Fibernet via UPI,Bills,regex,Bills,0.75,regex,False,True
+18,Zomato,Food,dictionary,Food,0.95,dictionary,False,True
+336,NEFT credit from Vijay electronics store purchase,Shopping,regex,Shopping,0.75,regex,False,True
+207,NEFT credit from BESCOM Electricity,Bills,dictionary,Bills,0.95,dictionary,False,True

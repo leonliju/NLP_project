@@ -1,0 +1,475 @@
+transaction_id,description,category,bucket
+1,small charge deducted by the bank,Other,nlp_hard
+2,Picked up a few things from the general store,Shopping,nlp_hard
+3,hostel rent,Bills,dictionary
+4,Booked a cab to the airport early morning,Travel,nlp_hard
+5,IMPS transfer - BookMyShow,Entertainment,dictionary
+6,upi/universitybookstore/education,Education,dictionary
+7,train ticket for the trip next month,Travel,nlp_hard
+8,NEFT credit from HP petrol pump fuel fill,Travel,regex
+9,IMPS transfer - Freelance Payment - Upwork,Income,dictionary
+10,UPI/ChaiPoint/Food,Food,dictionary
+11,POS purch@se at Third Wave Coffee,Food,dictionary
+12,Payment to Zomato via UPI,Food,dictionary
+13,Payment to Misc UPI transfer to unknown via UPI,Other,regex
+14,Home broadband renewal,Bills,regex
+15,wifi connection renewed for the flat,Bills,nlp_hard
+16,Picked up @ birthday present for a friend,Shopping,nlp_hard
+17,pos purchase at zomato,Food,dictionary
+18,Zomato,Food,dictionary
+19,booked a cab to the airport early morning,Travel,nlp_hard
+20,Flight booked for the semester break,Travel,nlp_hard
+21,Donated a small amount to a fundraiser,Other,nlp_hard
+22,IMPS transfer - Airtel Postpaid,Bills,dictionary
+23,imps transfer - rapido cab ride,Travel,regex
+24,Auto-debit - Hostel Rent,Bills,dictionary
+25,NEFT credit from Scholarship Disbursement,Income,dictionary
+26,UPI/Udemy/Education,Education,dictionary
+27,picked up prescribed tablets today,Medical,nlp_hard
+28,NEFT credit from Timezone gaming zone,Entertainment,regex
+29,Shared an auto to the railway station,Travel,nlp_hard
+30,Paid back a friend for lending cash,Other,nlp_hard
+31,Metro medical store purchase,Medical,regex
+32,Payment to Society maintenance charge via UPI,Bills,regex
+33,Payment to Local Bookstore via UPI,Shopping,dictionary
+34,Payment to Zomato via UPI,Food,dictionary
+35,Amazon India,Shopping,dictionary
+36,Auto-debit - Netflix Subscription,Bills,dictionary
+37,tickets booked for the concert downtown,Entertainment,nlp_hard
+38,Auto-debit - Vodafone Idea electricity bill payment,Bills,regex
+39,Payment to Third Wave Coffee via UPI,Food,dictionary
+40,IMPS transfer - Ola Cabs,Travel,dictionary
+41,Warden collected the room deposit this week,Bills,nlp_hard
+42,Thyrocar3 lab test payment,Medical,regex
+43,Auto-debit - ATM withdrawal at HDFC,Other,regex
+44,subscribed to a music streaming service,Entertainment,nlp_hard
+45,Train ticket for the trip next month,Travel,nlp_hard
+46,id card renewal charge at admin office,Education,nlp_hard
+47,Bought a thermometer and bandages,Medical,nlp_hard
+48,Grabbed a quick bite between classes,Food,nlp_hard
+49,Payment to Third Wave Coffee via UPI,Food,dictionary
+50,Annual ch3ckup at the clinic,Medical,nlp_hard
+51,UPI/AmazonIndia/Shopping,Shopping,dictionary
+52,IMPS transfer - 1mg Online Pharmacy,Medical,dictionary
+53,POS purchase at Swiggy,Food,dictionary
+54,Auto-debit - HDFC cashback credited,Income,regex
+55,College semester fee installment,Education,regex
+56,Annual maintenance charge for the apartment,Bills,nlp_hard
+57,shared a meal with roommates at the mess,Food,nlp_hard
+58,UPI/LocalTiffinService/Food,Food,dictionary
+59,Auto-debit - IndiGo flight ticket,Travel,regex
+60,Auto-debit - PG rent due for October,Bills,regex
+61,imps transf3r - timezone gaming zone,Entertainment,regex
+62,IMPS transfer - Petty transfer to roommate,Other,regex
+63,Payment to SBI bank charge deducted via UPI,Other,regex
+64,Infosys salary credited,Income,regex
+65,upi/indigoairlines/travel,Travel,dictionary
+66,DTH recharge - Tata Play,Bills,regex
+67,bought lab manual for the semester,Education,nlp_hard
+68,Payment to Croma via UPI,Shopping,dictionary
+69,NEFT credit from KSRTC bus ticket booking,Travel,regex
+70,Auto-debit - UPI Transfer - Friend,Other,dictionary
+71,Paid the landlord for this month,Bills,nlp_hard
+72,dental appointment payment,Medical,nlp_hard
+73,upi/jiofiberbroadband/bills,Bills,dictionary
+74,New charger for the laptop,Shopping,nlp_hard
+75,Grabbed a quick bite between classes,Food,nlp_hard
+76,UPI/NetflixSubscription/Bills,Bills,dictionary
+77,Withdrew cash from the machine near campus,Other,nlp_hard
+78,Bought @ thermometer and bandages,Medical,nlp_hard
+79,IMPS transfer - Domino's Pizza,Food,dictionary
+80,Flight booked for the semester break,Travel,nlp_hard
+81,bought a new pair of shoes,Shopping,nlp_hard
+82,Cleared this months electricity due,Bills,nlp_hard
+83,practo consultation,Medical,dictionary
+84,BMTC Bus Pass,Travel,dictionary
+85,Consultation with the family doctor,Medical,nlp_hard
+86,Exam Registration Fee,Education,dictionary
+87,Payment to Local band concert ticket via UPI,Entertainment,regex
+88,R3imbursement credited from college,Income,nlp_hard
+89,IMPS transfer - Flipkart,Shopping,dictionary
+90,Auto-debit - Gaming Zone Arcade,Entertainment,dictionary
+91,C3ntral Library fine cleared,Education,regex
+92,Auto-debit - DTH recharge - Tata Play,Bills,regex
+93,imps transfer - sbi bank charge deducted,Other,regex
+94,NEFT credit from Fun World amusement park,Entertainment,regex
+95,St Johns hospital bill,Medical,regex
+96,POS purchase at IndiGo Airlines,Travel,dictionary
+97,Picked up a birthday present for a friend,Shopping,nlp_hard
+98,IMPS transfer - Coursera,Education,dictionary
+99,Auto-debit - Petty transfer to roommate,Other,regex
+100,NEFT credit from INOX Movies,Entertainment,dictionary
+101,UPI/MiscellaneousPOS/Other,Other,dictionary
+102,Picked up prescribed tablets today,Medical,nlp_hard
+103,ordered dessert after dinner,Food,nlp_hard
+104,Metro medical store purchase,Medical,regex
+105,IMPS transfer - Domino's Pizza,Food,dictionary
+106,ordered a gift for a friend online,Shopping,nlp_hard
+107,New charger for the laptop,Shopping,nlp_hard
+108,Reimbursement credited from college,Income,nlp_hard
+109,NEFT credit from Exam Registration Fee,Education,dictionary
+110,netflix subscription,Bills,dictionary
+111,Payment to McDonald's via UPI,Food,dictionary
+112,Auto-d3bit - IndiGo Airlines,Travel,dictionary
+113,NEFT credit from Monthly Allowance - Parents,Income,dictionary
+114,NEFT credit from Udemy,Education,dictionary
+115,neft credit from monthly allowance - parents,Income,dictionary
+116,P@id entry fee for the college fest,Entertainment,nlp_hard
+117,Seminar registration completed online,Education,nlp_hard
+118,Sent money to a friend for splitting rent,Other,nlp_hard
+119,Big bazaar department store,Shopping,regex
+120,City centre shopping mall purchase,Shopping,regex
+121,UPI/1mgOnlinePharmacy/Medical,Medical,dictionary
+122,City centre shopping mall purchase,Shopping,regex
+123,auto-debit - decathlon,Shopping,dictionary
+124,NEFT credit from PG rent due for October,Bills,regex
+125,home broadband renewal,Bills,regex
+126,Payment to Thyrocare lab test payment via UPI,Medical,regex
+127,NEFT credit from Workshop fee - IEEE chapter,Education,regex
+128,POS purchase at ATM Cash Withdrawal,Other,dictionary
+129,NEFT cr3dit from St Johns hospital bill,Medical,regex
+130,unclear charge on the statement,Other,nlp_hard
+131,IMPS transfer - BESCOM Electricity,Bills,dictionary
+132,upi transfer - friend,Other,dictionary
+133,UPI/INOXMovies/Entertainment,Entertainment,dictionary
+134,UPI/NetflixSubscription/Bills,Bills,dictionary
+135,Picked up a few things from the general store,Shopping,nlp_hard
+136,annual checkup at the clinic,Medical,nlp_hard
+137,POS purchase at Airtel Postpaid,Bills,dictionary
+138,weekend outing with friends at the arcade,Entertainment,nlp_hard
+139,upi/localtiffinservice/food,Food,dictionary
+140,Auto-debit - Bank Charges,Other,dictionary
+141,ATM withdrawal at HDFC,Other,regex
+142,dental appointment payment,Medical,nlp_hard
+143,Payment to Udemy via UPI,Education,dictionary
+144,Got paid for the tutoring session,Income,nlp_hard
+145,Subscribed to a music streaming service,Entertainment,nlp_hard
+146,POS purchase at Exam Registration Fee,Education,dictionary
+147,BESCOM Electricity,Bills,dictionary
+148,Paid back a friend for lending cash,Other,nlp_hard
+149,Bank Charges,Other,dictionary
+150,NEFT credit from Metro supermarket bill,Shopping,regex
+151,Bought a new pair of shoes,Shopping,nlp_hard
+152,POS purchase at UPI Transfer - Friend,Other,dictionary
+153,NEFT credit from Miscellaneous POS,Other,dictionary
+154,Bought snacks from the tuck shop,Food,nlp_hard
+155,Payment to Local band concert ticket via UPI,Entertainment,regex
+156,Payment to Metro supermarket bill via UPI,Shopping,regex
+157,tickets booked for the concert downtown,Entertainment,nlp_hard
+158,Booked seats for the comedy show,Entertainment,nlp_hard
+159,Wifi connection renewed for the flat,Bills,nlp_hard
+160,Shar3d an auto to the railway station,Travel,nlp_hard
+161,prize money for winning the hackathon,Income,nlp_hard
+162,Withdrew cash from the machine near campus,Other,nlp_hard
+163,IMPS transfer - Local Bookstore,Shopping,dictionary
+164,certific@tion exam booked for next month,Education,nlp_hard
+165,Auto-debit - Vijay electronics store purchase,Shopping,regex
+166,Paid for lunch with the project team,Food,nlp_hard
+167,Spent the evening at a rooftop lounge,Entertainment,nlp_hard
+168,hackathon prize money transfer,Income,regex
+169,ordered dessert after dinner,Food,nlp_hard
+170,POS purchas3 at Bank Charges,Other,dictionary
+171,Rajesh Dhaba dinner,Food,regex
+172,Payment to Reliance Trends via UPI,Shopping,dictionary
+173,Hackathon prize money transfer,Income,regex
+174,Auto-debit - IndiGo Airlines,Travel,dictionary
+175,Central library fine cleared,Education,regex
+176,PVR movie ticket booking,Entertainment,regex
+177,UPI/FreelancePaymentUpwork/Income,Income,dictionary
+178,Bought snacks from the tuck shop,Food,nlp_hard
+179,NEFT credit from Uber,Travel,dictionary
+180,POS purchase at Swasthi restaurant bill,Food,regex
+181,got paid for the tutoring session,Income,nlp_hard
+182,Payment to Third Wave Coffee via UPI,Food,dictionary
+183,Id card renewal charge at admin office,Education,nlp_hard
+184,Train ticket for the trip next month,Travel,nlp_hard
+185,POS purchase at Corner cafe evening snack,Food,regex
+186,UPI Transfer - Friend,Other,dictionary
+187,Rapido cab ride,Travel,regex
+188,sold old textbooks to a junior,Income,nlp_hard
+189,Dental appointment payment,Medical,nlp_hard
+190,Bought lab manual for the semester,Education,nlp_hard
+191,New b@kery order,Food,regex
+192,Auto-debit - Hostel mess food payment,Food,regex
+193,City care pharmacy purchase,Medical,regex
+194,Paid entry fee for the college fest,Entertainment,nlp_hard
+195,tcs stipend credited,Income,regex
+196,Payment to BookMyShow via UPI,Entertainment,dictionary
+197,Workshop fee - ieee chapter,Education,regex
+198,IMPS transfer - Flipkart,Shopping,dictionary
+199,Certification exam booked for next month,Education,nlp_hard
+200,Eye test at the optician,Medical,nlp_hard
+201,Sold old textbooks to a junior,Income,nlp_hard
+202,Amount received from a part time gig,Income,nlp_hard
+203,POS purchase at Domino's Pizza,Food,dictionary
+204,imps transfer - bank charges,Other,dictionary
+205,hostel mess food payment,Food,regex
+206,Topped up the mobile network balance,Bills,nlp_hard
+207,NEFT credit from BESCOM Electricity,Bills,dictionary
+208,Cleared pending dues at the department office,Education,nlp_hard
+209,Sent money to a friend for splitting rent,Other,nlp_hard
+210,Payment to Ola Cabs via UPI,Travel,dictionary
+211,NEFT credit from BMTC Bus Pass,Travel,dictionary
+212,Payment to Monthly wifi bill - ACT Fibernet via UPI,Bills,regex
+213,POS purchase at Society maintenance charge,Bills,regex
+214,POS purchase at Hostel Rent,Bills,dictionary
+215,Booked seats for the comedy show,Entertainment,nlp_hard
+216,pos purchase at practo consultation,Medical,dictionary
+217,IMPS transfer - Freelance Payment - Upwork,Income,dictionary
+218,neft credit from bookmyshow,Entertainment,dictionary
+219,NEFT credit from Hackathon prize money transfer,Income,regex
+220,NEFT credit from Uber,Travel,dictionary
+221,Ordered a gift for a friend online,Shopping,nlp_hard
+222,POS purchase at Namma Metro card recharge,Travel,regex
+223,POS purchase at College semester fee installment,Education,regex
+224,IMPS transfer - HP petrol pump fuel fill,Travel,regex
+225,NEFT credit from Faasos food delivery order,Food,regex
+226,Swasthi restaurant bill,Food,regex
+227,Central library fine cleared,Education,regex
+228,POS purchase at Scholarship Disbursement,Income,dictionary
+229,NEFT credit from Reliance Trends,Shopping,dictionary
+230,upi/redbus/travel,Travel,dictionary
+231,Small charge deducted by the bank,Other,nlp_hard
+232,Reliance Trends,Shopping,dictionary
+233,neft credit from airtel postpaid,Bills,dictionary
+234,Auto-debit - 1mg Online Pharmacy,Medical,dictionary
+235,Treated myself to a milkshake,Food,nlp_hard
+236,IMPS transfer - Swiggy,Food,dictionary
+237,Indigo flight ticket,Travel,regex
+238,Payment to Unidentified Merchant via UPI,Other,dictionary
+239,Parents sent money for the month,Income,nlp_hard
+240,POS purchase at Apollo Pharmacy,Medical,dictionary
+241,Auto-debit - Local Bookstore,Shopping,dictionary
+242,St johns hospital bill,Medical,regex
+243,Consultation with the family doctor,Medical,nlp_hard
+244,Paid for the workshop materials,Education,nlp_hard
+245,Bought a study table lamp,Shopping,nlp_hard
+246,POS purchas3 at Apollo Pharmacy,Medical,dictionary
+247,Paid back a friend for lending cash,Other,nlp_hard
+248,Payment to Swiggy via UPI,Food,dictionary
+249,Auto-debit - Coursera,Education,dictionary
+250,NEFT credit from BookMyShow,Entertainment,dictionary
+251,UPI/RelianceTrends/Shopping,Shopping,dictionary
+252,Payment to Unidentified Merchant via UPI,Other,dictionary
+253,pos purchase at society maintenance charge,Bills,regex
+254,PVR movie ticket booking,Entertainment,regex
+255,IMPS transfer - PG rent due for October,Bills,regex
+256,POS purchase at McDonald's,Food,dictionary
+257,POS purchase at Thyrocare lab test payment,Medical,regex
+258,Tcs stipend credited,Income,regex
+259,HDFC cashback credited,Income,regex
+260,Id card renewal charge at admin office,Education,nlp_hard
+261,IRCTC tr@in ticket booking,Travel,regex
+262,Bought snacks from the tuck shop,Food,nlp_hard
+263,Meru taxi booking,Travel,regex
+264,IMPS tr@nsfer - Amazon India,Shopping,dictionary
+265,pos purchase at infosys salary credited,Income,regex
+266,Auto-debit - New Bakery order,Food,regex
+267,Reimbursement credited from college,Income,nlp_hard
+268,Corner cafe evening snack,Food,regex
+269,Payment to Croma via UPI,Shopping,dictionary
+270,Sold old textbooks to a junior,Income,nlp_hard
+271,Sent money to @ friend for splitting rent,Other,nlp_hard
+272,Cle@red this months electricity due,Bills,nlp_hard
+273,Spent the evening at a rooftop lounge,Entertainment,nlp_hard
+274,auto-debit - ksrtc bus ticket booking,Travel,regex
+275,Treated myself to a milkshake,Food,nlp_hard
+276,NEFT credit from Namma Metro card recharge,Travel,regex
+277,Topped up the travel card,Travel,nlp_hard
+278,Annual maint3nance charge for the apartment,Bills,nlp_hard
+279,POS purchase at Miscellaneous POS,Other,dictionary
+280,Auto-debit - Monthly wifi bill - ACT Fibernet,Bills,regex
+281,Payment to Amazon refund received via UPI,Income,regex
+282,Annual maintenance charge for the apartment,Bills,nlp_hard
+283,ordered a gift for a friend online,Shopping,nlp_hard
+284,book3d a ride back home for the weekend,Travel,nlp_hard
+285,Paid for th3 workshop materials,Education,nlp_hard
+286,Auto-debit - Faasos food delivery order,Food,regex
+287,Paid for lunch with the project team,Food,nlp_hard
+288,UPI/Uber/Travel,Travel,dictionary
+289,NEFT cr3dit from Flipkart,Shopping,dictionary
+290,Workshop fee - ieee chapter,Education,regex
+291,Trendz clothing store,Shopping,regex
+292,IMPS transfer - Faasos food delivery order,Food,regex
+293,POS purchase at Miscellaneous POS,Other,dictionary
+294,UPI/UnidentifiedMerchant/Other,Other,dictionary
+295,Seminar registration completed online,Education,nlp_hard
+296,New bakery order,Food,regex
+297,Paid for lunch with the project team,Food,nlp_hard
+298,Warden collected the room deposit this week,Bills,nlp_hard
+299,Auto-debit - Amazon India,Shopping,dictionary
+300,POS purchase at Infosys salary credited,Income,regex
+301,Got paid for the tutoring session,Income,nlp_hard
+302,ATM Cash Withdrawal,Other,dictionary
+303,Tickets booked for the concert downtown,Entertainment,nlp_hard
+304,Prize money for winning the hackathon,Income,nlp_hard
+305,Auto-debit - Decathlon,Shopping,dictionary
+306,Bought a study table lamp,Shopping,nlp_hard
+307,Auto-debit - INOX Movies,Entertainment,dictionary
+308,Donated a small amount to a fundraiser,Other,nlp_hard
+309,NEFT credit from McDonald's,Food,dictionary
+310,Irctc train ticket booking,Travel,regex
+311,NEFT credit from Monthly Allowance - Parents,Income,dictionary
+312,Payment to Skin clinic consultation via UPI,Medical,regex
+313,neft credit from skill lync course fee,Education,regex
+314,IMPS transfer - Ola Cabs,Travel,dictionary
+315,NEFT credit from Jio Fiber Broadband,Bills,dictionary
+316,UPI/UniversityBookstore/Education,Education,dictionary
+317,IMPS transfer - Udemy,Education,dictionary
+318,IMPS transfer - Vodafone Idea electricity bill payment,Bills,regex
+319,Auto-debit - Local Bookstore,Shopping,dictionary
+320,Treated myself to a milkshake,Food,nlp_hard
+321,Topped up the mobile network balance,Bills,nlp_hard
+322,Corner cafe evening snack,Food,regex
+323,Auto-debit - 1mg Online Pharmacy,Medical,dictionary
+324,POS purchase at Campus Cafeteria,Food,dictionary
+325,Auto-d3bit - Skin clinic consultation,Medical,regex
+326,Subscribed to a music streaming service,Entertainment,nlp_hard
+327,book3d seats for the comedy show,Entertainment,nlp_hard
+328,NEFT credit from Monthly wifi bill - ACT Fibernet,Bills,regex
+329,POS purchase at Gaming Zone Arcade,Entertainment,dictionary
+330,Shared a meal with roommates at the mess,Food,nlp_hard
+331,Fun world amusement park,Entertainment,regex
+332,neft credit from irctc train ticket booking,Travel,regex
+333,POS purchase at Big Bazaar department store,Shopping,regex
+334,prize money for winning the hackathon,Income,nlp_hard
+335,POS purchase at BESCOM Electricity,Bills,dictionary
+336,NEFT credit from Vijay electronics store purchase,Shopping,regex
+337,Small charge deducted by the bank,Other,nlp_hard
+338,Practo Consultation,Medical,dictionary
+339,POS purchase at Hostel mess food payment,Food,regex
+340,Picked up prescribed tablets today,Medical,nlp_hard
+341,Spotify ott subscription renewal,Entertainment,regex
+342,Home broadband renewal,Bills,regex
+343,UPI/ApolloPharmacy/Medical,Medical,dictionary
+344,NEFT credit from Amazon refund received,Income,regex
+345,NEFT credit from Spotify OTT subscription renewal,Entertainment,regex
+346,IMPS transfer - Local Tiffin Service,Food,dictionary
+347,POS purchase at INOX Movies,Entertainment,dictionary
+348,Payment to University Bookstore via UPI,Education,dictionary
+349,Meru taxi booking,Travel,regex
+350,Paid the landlord for this month,Bills,nlp_hard
+351,college semester fee installment,Education,regex
+352,Withdrew cash from the machine near campus,Other,nlp_hard
+353,POS purchase at Exam Registration Fee,Education,dictionary
+354,Shared a meal with roommates at the mess,Food,nlp_hard
+355,IMPS transfer - Swasthi restaurant bill,Food,regex
+356,POS purchase at Trendz clothing store,Shopping,regex
+357,TCS stipend credited,Income,regex
+358,imps transfer - redbus,Travel,dictionary
+359,Consultation with the family doctor,Medical,nlp_hard
+360,Flipkart,Shopping,dictionary
+361,pos purchase at local tiffin service,Food,dictionary
+362,Decathlon,Shopping,dictionary
+363,UPI/Croma/Shopping,Shopping,dictionary
+364,Bought a study table lamp,Shopping,nlp_hard
+365,Auto-debit - Hostel Rent,Bills,dictionary
+366,Topped up the mobile network balance,Bills,nlp_hard
+367,Picked up a few things from the general store,Shopping,nlp_hard
+368,NEFT credit from McDonald's,Food,dictionary
+369,Payment to ATM withdrawal at HDFC via UPI,Other,regex
+370,NEFT credit from Jio Fiber Broadband,Bills,dictionary
+371,Ola Cabs,Travel,dictionary
+372,Auto-debit - Gaming Zone Arcade,Entertainment,dictionary
+373,topped up the travel card,Travel,nlp_hard
+374,amount received from a part time gig,Income,nlp_hard
+375,Rajesh dhaba dinner,Food,regex
+376,Hp petrol pump fuel fill,Travel,regex
+377,Eye test at the optician,Medical,nlp_hard
+378,Annual checkup at the clinic,Medical,nlp_hard
+379,Bought lab manual for th3 semester,Education,nlp_hard
+380,POS purchase at City Care pharmacy purchase,Medical,regex
+381,IMPS transfer - Local band concert ticket,Entertainment,regex
+382,Timezone gaming zone,Entertainment,regex
+383,Payment to HDFC cashback credited via UPI,Income,regex
+384,Unclear charge on the statement,Other,nlp_hard
+385,Metro supermarket bill,Shopping,regex
+386,Flight booked for the semester break,Travel,nlp_hard
+387,Unclear charge on the statement,Other,nlp_hard
+388,Sbi b@nk charge deducted,Other,regex
+389,weekend outing with friends at the arcade,Entertainment,nlp_hard
+390,meru taxi booking,Travel,regex
+391,NEFT credit from PVR movie ticket booking,Entertainment,regex
+392,Payment to RedBus via UPI,Travel,dictionary
+393,NEFT credit from Gaming Zone Arcade,Entertainment,dictionary
+394,Rajesh dhaba dinner,Food,regex
+395,gate exam fee payment,Education,regex
+396,pos purchase at petty transfer to roommate,Other,regex
+397,Trendz clothing store,Shopping,regex
+398,UPI/ATMCashWithdrawal/Other,Other,dictionary
+399,IMPS transfer - Chai Point,Food,dictionary
+400,Parents sent money for the month,Income,nlp_hard
+401,UPI/AirtelPostpaid/Bills,Bills,dictionary
+402,Bought a thermometer and bandages,Medical,nlp_hard
+403,Booked a ride back home for the weekend,Travel,nlp_hard
+404,Campus Cafeteria,Food,dictionary
+405,Payment to Freelance Payment - Upwork via UPI,Income,dictionary
+406,Payment to Fun World amusement park via UPI,Entertainment,regex
+407,P@yment to University Bookstore via UPI,Education,dictionary
+408,NEFT credit from City Centre shopping mall purchase,Shopping,regex
+409,Grabbed a quick bite between classes,Food,nlp_hard
+410,Payment to Scholarship Disbursement via UPI,Income,dictionary
+411,Paid for the workshop materials,Education,nlp_hard
+412,New charger for the laptop,Shopping,nlp_hard
+413,chai point,Food,dictionary
+414,Certification exam booked for next month,Education,nlp_hard
+415,Rapido cab ride,Travel,regex
+416,IMPS transfer - Skin clinic consultation,Medical,regex
+417,POS purchase at Jio Fiber Broadband,Bills,dictionary
+418,wifi connection renewed for the flat,Bills,nlp_hard
+419,POS purchase at Scholarship Disbursement,Income,dictionary
+420,Parents sent money for the month,Income,nlp_hard
+421,POS purchase at KSRTC bus ticket booking,Travel,regex
+422,Payment to Uber via UPI,Travel,dictionary
+423,Paid the landlord for this month,Bills,nlp_hard
+424,Shared an auto to the railway station,Travel,nlp_hard
+425,Auto-debit - Decathlon,Shopping,dictionary
+426,Misc upi transfer to unknown,Other,regex
+427,Picked up a birthday present for a friend,Shopping,nlp_hard
+428,Warden collected the room deposit this week,Bills,nlp_hard
+429,NEFT credit from Metro medical store purchase,Medical,regex
+430,Auto-debit - Chai Point,Food,dictionary
+431,Paid entry fee for the college fest,Entertainment,nlp_hard
+432,UPI/CampusCafeteria/Food,Food,dictionary
+433,Dth recharge - tata play,Bills,regex
+434,POS purchase at GATE exam fee payment,Education,regex
+435,booked a cab to the airport early morning,Travel,nlp_hard
+436,Skill lync course fee,Education,regex
+437,Vodafone idea electricity bill payment,Bills,regex
+438,NEFT credit from Domino's Pizza,Food,dictionary
+439,POS purchase at Campus Cafeteria,Food,dictionary
+440,Cleared pending dues at the department office,Education,nlp_hard
+441,City care pharmacy purchase,Medical,regex
+442,IMPS tr@nsfer - Big Bazaar department store,Shopping,regex
+443,POS purchase at Coursera,Education,dictionary
+444,Cleared this months electricity due,Bills,nlp_hard
+445,redbus,Travel,dictionary
+446,imps transfer - namma metro card recharge,Travel,regex
+447,bought a new pair of shoes,Shopping,nlp_hard
+448,IMPS transfer - GATE exam fee payment,Education,regex
+449,Amount received from a part time gig,Income,nlp_hard
+450,Amazon refund received,Income,regex
+451,Eye test at the optician,Medical,nlp_hard
+452,Cleared pending dues at the department office,Education,nlp_hard
+453,Payment to Vijay electronics store purchase via UPI,Shopping,regex
+454,NEFT credit from Misc UPI transfer to unknown,Other,regex
+455,Payment to BMTC Bus Pass via UPI,Travel,dictionary
+456,Croma,Shopping,dictionary
+457,BMTC Bus Pass,Travel,dictionary
+458,spent the evening at a rooftop lounge,Entertainment,nlp_hard
+459,UPI/ApolloPharmacy/Medical,Medical,dictionary
+460,Ordered dessert after dinner,Food,nlp_hard
+461,pos purchase at monthly allowance - parents,Income,dictionary
+462,Booked a ride back home for the weekend,Travel,nlp_hard
+463,Seminar registration completed online,Education,nlp_hard
+464,Spotify ott subscription renewal,Entertainment,regex
+465,UPI/UnidentifiedMerchant/Other,Other,dictionary
+466,Topped up the travel card,Travel,nlp_hard
+467,Auto-debit - Coursera,Education,dictionary
+468,Skill lync course fee,Education,regex
+469,Swiggy,Food,dictionary
+470,IMPS transfer - ATM Cash Withdrawal,Other,dictionary
+471,Payment to IndiGo flight ticket via UPI,Travel,regex
+472,Weekend outing with friends at the arcade,Entertainment,nlp_hard
+473,Donated a small amount to a fundraiser,Other,nlp_hard
+474,Practo Consultation,Medical,dictionary
